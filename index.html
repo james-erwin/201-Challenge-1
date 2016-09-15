@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<link rel="stylesheet" type="text/css" href="style.css">
+
+		<meta charset="utf-8">
+		<title>Page Title</title>
+	</head>
+<body>
+	<h1>Location Finder</h1>
+	<input type='text' id='location'><button onclick="findLocation()" "initMap()">Find location</button>
+	<p id='address'>Address: </p>
+	<p id='lat'>Lattitude: </p>
+	<p id='lng'>Longitude: </p>
+	<p id='rise'>Sunrise: </p>
+	<p id='set'>Sunset: </p>
+
+	<div id="map">
+
+
+
+
+</div>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCnCVFu4GX3pQkLA5VkB9AqCuEY3rypXnw&callback=displayMap"
+async defer></script>
+	<script src="js/script.js"></script>
+</body>
+</html>
